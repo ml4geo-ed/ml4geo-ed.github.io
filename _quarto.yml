@@ -19,7 +19,8 @@ format:
       - cosmo
       # - [cosmo, styles.css]
       - brand
-    css: styles.css
+    css: 
+      - /styles.css
     # background-color: #EBDFCC 
     toc: true
 
