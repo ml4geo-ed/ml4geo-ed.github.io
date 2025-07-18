@@ -1,0 +1,27 @@
+project:
+  type: website
+  # output-dir: docs
+
+website:
+  title: "ML4GEO"
+  favicon: images/ML4GEO_logo.png
+  navbar:
+    left:
+      - href: index.qmd
+        # html: "<img src='images/ML4GEO_logo.png' alt='ML4GEO Logo' style='height: 40px;'>"
+        text: Home
+      # - about.qmd
+      - events.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+resources:
+  - _site/styles.css
+
+
