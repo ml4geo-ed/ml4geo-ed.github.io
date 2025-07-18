@@ -17,11 +17,13 @@ format:
   html:
     theme:
       - cosmo
+      # - [cosmo, styles.css]
       - brand
     css: styles.css
+    # background-color: #EBDFCC 
     toc: true
 
-resources:
-  - _site/styles.css
+# resources:
+#   - _site/styles.css
 
 
