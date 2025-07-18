@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ML4GEO",
+    "section": "",
+    "text": "Welcome to the website for the Machine Learning for Geoscience & Earth Observation (ML4GEO) research group at the University of Edinburgh!\nIf you are a researcher at the University of Edinburgh using or interested in using geospatial machine learning techniques, please do join the community: JOIN THE ML4GEO TEAMS.\nML4GEO is a new initiative set up in the 2024/25 academic year by PhD students from Geosciences, Informatics, and Maths who found they used similar methods and that discussing was mutually beneficial. We hope that ML4GEO will become a group that encourages interdisciplinary collaboration across schools and disciplines, fostering a supportive environment for sharing ideas, resources, and expertise in geospatial machine learning.\nIf you are interested in getting involved, please check out our upcoming events and resources, or get in touch! We are always looking for people to help with organising and contributing to the development of the group."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "This page lists all upcoming ML4GEO events. Please bear in mind that the MS Teams Channel will remain the place to receive the most up-to-date information about ML4GEO activities.\n\n\n22/07/2025 - Geospatial Foundation Models Ideathon/Hackathon\nML4GEO is a research group passionate about connecting geospatial sciences with machine learning!\nThis month, we’re excited to host our inaugural Ideathon/Hackathon focused on Geospatial Foundation Models! Join us at ML4GEO for a 2-day event on July 22-23 at the Edinburgh Futures Institute. where we’ll collaborate to generate ideas and explore use cases together. No technical expertise required!\nGeospatial Foundation models (GFMs) are revolutionising geospatial machine learning (TerraMind, SSL4EO-S12 , Google Embeddings,… ) with state-of-the-art performance and generalizability across sensors/regions and benchmark spatial imaging tasks.\nOur Ideathon/Hackathon aims to: * Provide a brief introduction to GFMs. * Offer space for discussion and idea generation for applications. * Facilitate group work to develop prototypes and implement ideas using actual GFMs and FM embeddings.\nYou’ll have the opportunity to identify your own problem and choose which GFM and data to use, facilitating a self-driven learning experience!\nSign-ups here!"
+  }
+]
