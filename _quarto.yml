@@ -12,6 +12,7 @@ website:
         text: Home
       # - about.qmd
       - events.qmd
+      - committee.qmd
 
 format:
   html:
@@ -26,5 +27,7 @@ format:
 
 # resources:
 #   - _site/styles.css
+resources:
+  - /styles.css
 
 
