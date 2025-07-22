@@ -11,9 +11,9 @@ website:
         # html: "<img src='images/ML4GEO_logo.png' alt='ML4GEO Logo' style='height: 40px;'>"
         text: Home
       # - about.qmd
-      - events.qmd
-      - committee.qmd
-      - members.qmd
+      - href: events.qmd
+      - href: committee.qmd
+      - href: members.qmd
 
 format:
   html:
