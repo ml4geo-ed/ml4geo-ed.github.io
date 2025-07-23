@@ -6,8 +6,8 @@ title: ""
 
 Welcome to the website for the **Machine Learning for Geoscience & Earth Observation (ML4GEO)** research group at the University of Edinburgh!
 
-If you are a researcher at the University of Edinburgh using or interested in using geospatial machine learning techniques, please do join the community: [JOIN THE ML4GEO TEAMS](https://teams.microsoft.com/l/team/19%3aexample-link).
+If you are a researcher at the University of Edinburgh using or interested in using geospatial machine learning techniques, please do join the community: [JOIN THE ML4GEO TEAMS](https://teams.microsoft.com/l/team/19%3AyLESYGgqIWxiks_wBpeS5qtPhEajHqkClofdBy8L9cc1%40thread.tacv2/conversations?groupId=cf172001-ed01-42fc-a514-fc5d90fb19ff&tenantId=2e9f06b0-1669-4589-8789-10a06934dc61).
 
 ML4GEO is a new initiative set up in the 2024/25 academic year by PhD students from Geosciences, Informatics, and Maths who found they used similar methods and that discussing was mutually beneficial. We hope that ML4GEO will become a group that encourages interdisciplinary collaboration across schools and disciplines, fostering a supportive environment for sharing ideas, resources, and expertise in geospatial machine learning.
 
-We hold regular meetings during the semester and you will find details about this on the [ML4GEO Teams Channel](https://teams.microsoft.com/l/team/19%3aexample-link). If you are interested in getting more involved, please get in touch with one of our [committee](committee.qmd)! We are always looking for people to help with organising and contributing to the development of the group.
+We hold regular meetings during the semester and you will find details about this on the [ML4GEO Teams Channel](https://teams.microsoft.com/l/team/19%3AyLESYGgqIWxiks_wBpeS5qtPhEajHqkClofdBy8L9cc1%40thread.tacv2/conversations?groupId=cf172001-ed01-42fc-a514-fc5d90fb19ff&tenantId=2e9f06b0-1669-4589-8789-10a06934dc61). If you are interested in getting more involved, please get in touch with one of our [committee](committee.qmd)! We are always looking for people to help with organising and contributing to the development of the group.
