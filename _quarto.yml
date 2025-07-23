@@ -13,7 +13,8 @@ website:
       # - about.qmd
       - href: events.qmd
       - href: committee.qmd
-      - href: members.qmd
+      # - href: members.qmd
+      - href: resources.qmd
 
 format:
   html:

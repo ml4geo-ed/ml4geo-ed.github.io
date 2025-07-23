@@ -1,31 +1,24 @@
 [
   {
-    "objectID": "members.html",
-    "href": "members.html",
-    "title": "Members",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "ML4GEO is a cross-school community of researchers interested in collaborating and learning from each other on topics related to Machine Learning in Geoscience and Earth Observation.\nIf you are based at the University of Edinburgh and would like to be added to the website as a member of ML4GEO, please fill in this form."
+    "text": "Here we list a bunch of useful resources for getting started with geospatial machine learning."
   },
   {
-    "objectID": "members.html#ml4geo-members",
-    "href": "members.html#ml4geo-members",
-    "title": "Members",
-    "section": "ML4GEO Members",
-    "text": "ML4GEO Members\n\n\n\n  \n  \n    \n      \n    \n    Leam Howe\n    Email: leam.howe@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Snow, Scotland, Remote Sensing, Modelling, Machine Learning.\n\n  \n\n\n\n  \n  \n    \n      \n        \n    Becky Wilks\n    Email: R.C.Wilks@sms.ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of Mathematics\n    Research Topics: Elephants, Wildlife Monitoring, Remote Sensing, Statistical Modelling, Machine Learning.\n    \n\n  \n  \n    \n        \n    \n    Philipp Barthelme\n    Email: philipp.barthelme@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Conflict, Environment, Remote Sensing, Machine Learning, Vietnam War.\n  \n\n  \n  \n    \n        \n    \n    Seán Ó Héir\n    Email: sean.oheir@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of Informatics\n    Research Topics: Population Estimation, Remote Sensing, Machine Learning.\n      \n  \n  \n  \n    \n        \n    \n    Foteini Dervisi\n    Email: F.Dervisi@sms.ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Earthquake forecasting, Remote Sensing, Machine Learning."
+    "objectID": "resources.html#intro-to-geoml",
+    "href": "resources.html#intro-to-geoml",
+    "title": "Resources",
+    "section": "Intro to GeoML",
+    "text": "Intro to GeoML\nOpen Access Courses:\n\nGeoSMART Curriculum\nWV View courses in GIS, remote sensing, and geospatial deep learning.\nRadiantEarth ML4EO Bootcamp 2021\n\nOther resources:\n\nTorchgeo Tutorials: The  package is an extension to PyTorch to include popular datasets, model architectures, and common image transformations for geospatial data."
   },
   {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ML4GEO",
     "section": "",
-    "text": "This page lists all upcoming ML4GEO events. Please bear in mind that the MS Teams Channel will remain the place to receive the most up-to-date information about ML4GEO activities.\n\n\n22/07/2025 - Geospatial Foundation Models Ideathon/Hackathon\nML4GEO is a research group passionate about connecting geospatial sciences with machine learning!\nThis month, we’re excited to host our inaugural Ideathon/Hackathon focused on Geospatial Foundation Models! Join us at ML4GEO for a 2-day event on July 22-23 at the Edinburgh Futures Institute. where we’ll collaborate to generate ideas and explore use cases together. No technical expertise required!\nGeospatial Foundation models (GFMs) are revolutionising geospatial machine learning (TerraMind, SSL4EO-S12 , Google Embeddings,… ) with state-of-the-art performance and generalizability across sensors/regions and benchmark spatial imaging tasks.\nOur Ideathon/Hackathon aims to: * Provide a brief introduction to GFMs. * Offer space for discussion and idea generation for applications. * Facilitate group work to develop prototypes and implement ideas using actual GFMs and FM embeddings.\nYou’ll have the opportunity to identify your own problem and choose which GFM and data to use, facilitating a self-driven learning experience!\nSign-ups here!"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "text": "Welcome to the website for the Machine Learning for Geoscience & Earth Observation (ML4GEO) research group at the University of Edinburgh!\nIf you are a researcher at the University of Edinburgh using or interested in using geospatial machine learning techniques, please do join the community: JOIN THE ML4GEO TEAMS.\nML4GEO is a new initiative set up in the 2024/25 academic year by PhD students from Geosciences, Informatics, and Maths who found they used similar methods and that discussing was mutually beneficial. We hope that ML4GEO will become a group that encourages interdisciplinary collaboration across schools and disciplines, fostering a supportive environment for sharing ideas, resources, and expertise in geospatial machine learning.\nWe hold regular meetings during the semester and you will find details about this on the ML4GEO Teams Channel. If you are interested in getting more involved, please get in touch with one of our committee! We are always looking for people to help with organising and contributing to the development of the group."
   },
   {
     "objectID": "committee.html",
@@ -42,10 +35,31 @@
     "text": "Meet the team 2024-25\n\n\n\n  \n  \n    \n      \n    \n    Leam Howe\n    Email: leam.howe@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Snow, Scotland, Remote Sensing, Modelling, Machine Learning.\n\n  \n\n\n\n  \n  \n    \n      \n        \n    Becky Wilks\n    Email: R.C.Wilks@sms.ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of Mathematics\n    Research Topics: Elephants, Wildlife Monitoring, Remote Sensing, Statistical Modelling, Machine Learning.\n    \n\n  \n  \n    \n        \n    \n    Philipp Barthelme\n    Email: philipp.barthelme@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Conflict, Environment, Remote Sensing, Machine Learning, Vietnam War.\n  \n\n  \n  \n    \n        \n    \n    Seán Ó Héir\n    Email: sean.oheir@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of Informatics\n    Research Topics: Population Estimation, Remote Sensing, Machine Learning.\n      \n  \n  \n  \n    \n        \n    \n    Foteini Dervisi\n    Email: F.Dervisi@sms.ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Earthquake forecasting, Remote Sensing, Machine Learning."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ML4GEO",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Welcome to the website for the Machine Learning for Geoscience & Earth Observation (ML4GEO) research group at the University of Edinburgh!\nIf you are a researcher at the University of Edinburgh using or interested in using geospatial machine learning techniques, please do join the community: JOIN THE ML4GEO TEAMS.\nML4GEO is a new initiative set up in the 2024/25 academic year by PhD students from Geosciences, Informatics, and Maths who found they used similar methods and that discussing was mutually beneficial. We hope that ML4GEO will become a group that encourages interdisciplinary collaboration across schools and disciplines, fostering a supportive environment for sharing ideas, resources, and expertise in geospatial machine learning.\nWe hold regular meetings during the semester and you will find details about this on the ML4GEO Teams Channel. If you are interested in getting more involved, please get in touch with one of our committee! We are always looking for people to help with organising and contributing to the development of the group."
+    "text": "About this site"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "This page lists all upcoming ML4GEO events. Please bear in mind that the MS Teams Channel will remain the place to receive the most up-to-date information about ML4GEO activities.\n\n\n22/07/2025 - Geospatial Foundation Models Ideathon/Hackathon\nML4GEO is a research group passionate about connecting geospatial sciences with machine learning!\nThis month, we’re excited to host our inaugural Ideathon/Hackathon focused on Geospatial Foundation Models! Join us at ML4GEO for a 2-day event on July 22-23 at the Edinburgh Futures Institute. where we’ll collaborate to generate ideas and explore use cases together. No technical expertise required!\nGeospatial Foundation models (GFMs) are revolutionising geospatial machine learning (TerraMind, SSL4EO-S12 , Google Embeddings,… ) with state-of-the-art performance and generalizability across sensors/regions and benchmark spatial imaging tasks.\nOur Ideathon/Hackathon aims to: * Provide a brief introduction to GFMs. * Offer space for discussion and idea generation for applications. * Facilitate group work to develop prototypes and implement ideas using actual GFMs and FM embeddings.\nYou’ll have the opportunity to identify your own problem and choose which GFM and data to use, facilitating a self-driven learning experience!\nSign-ups here!"
+  },
+  {
+    "objectID": "members.html",
+    "href": "members.html",
+    "title": "Members",
+    "section": "",
+    "text": "ML4GEO is a cross-school community of researchers interested in collaborating and learning from each other on topics related to Machine Learning in Geoscience and Earth Observation.\nIf you are based at the University of Edinburgh and would like to be added to the website as a member of ML4GEO, please fill in this form."
+  },
+  {
+    "objectID": "members.html#ml4geo-members",
+    "href": "members.html#ml4geo-members",
+    "title": "Members",
+    "section": "ML4GEO Members",
+    "text": "ML4GEO Members\n\n\n\n  \n  \n    \n      \n    \n    Leam Howe\n    Email: leam.howe@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Snow, Scotland, Remote Sensing, Modelling, Machine Learning.\n\n  \n\n\n\n  \n  \n    \n      \n        \n    Becky Wilks\n    Email: R.C.Wilks@sms.ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of Mathematics\n    Research Topics: Elephants, Wildlife Monitoring, Remote Sensing, Statistical Modelling, Machine Learning.\n    \n\n  \n  \n    \n        \n    \n    Philipp Barthelme\n    Email: philipp.barthelme@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Conflict, Environment, Remote Sensing, Machine Learning, Vietnam War.\n  \n\n  \n  \n    \n        \n    \n    Seán Ó Héir\n    Email: sean.oheir@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of Informatics\n    Research Topics: Population Estimation, Remote Sensing, Machine Learning.\n      \n  \n  \n  \n    \n        \n    \n    Foteini Dervisi\n    Email: F.Dervisi@sms.ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Earthquake forecasting, Remote Sensing, Machine Learning."
   }
 ]

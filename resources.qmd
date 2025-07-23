@@ -1,0 +1,28 @@
+---
+title: "Resources"
+---
+
+Here we list a bunch of useful resources for getting started with geospatial machine learning.
+
+----------------------------------------------------------
+
+## Intro to GeoML
+
+**Open Access Courses:**
+
+- [GeoSMART Curriculum](https://geo-smart.github.io/curriculum)
+- [WV View courses](https://wvview.org/courses.html) in GIS, remote sensing, and geospatial deep learning.
+- [RadiantEarth ML4EO Bootcamp 2021](https://github.com/RadiantMLHub/ml4eo-bootcamp-2021)
+
+**Other resources:**
+
+- [Torchgeo Tutorials](https://torchgeo.readthedocs.io/en/stable/tutorials/getting_started.html#): The <torchgeo> package is an extension to PyTorch to include popular datasets, model architectures, and common image transformations for geospatial data.
+
+
+<!-- ## Model Specific
+
+[Segment Anything Geospatial](https://github.com/opengeos/segment-geospatial)
+
+
+## Foundation Models -->
+
