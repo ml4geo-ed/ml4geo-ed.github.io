@@ -2,7 +2,9 @@
 title: "Resources"
 ---
 
-Here we list a bunch of useful resources for getting started with geospatial machine learning.
+Here we list a bunch of useful resources for getting started with geospatial machine learning. By no means is this an exhaustive list, but just a few examples that ML4GEO members have found useful.
+
+For a more comprehensive list the one provided by [satellite-image-deep-learning](https://github.com/satellite-image-deep-learning) is pretty awesome! 😎
 
 ----------------------------------------------------------
 
@@ -14,15 +16,87 @@ Here we list a bunch of useful resources for getting started with geospatial mac
 - [WV View courses](https://wvview.org/courses.html) in GIS, remote sensing, and geospatial deep learning.
 - [RadiantEarth ML4EO Bootcamp 2021](https://github.com/RadiantMLHub/ml4eo-bootcamp-2021)
 
-**Other resources:**
+**Other introductory resources:**
 
-- [Torchgeo Tutorials](https://torchgeo.readthedocs.io/en/stable/tutorials/getting_started.html#): The <torchgeo> package is an extension to PyTorch to include popular datasets, model architectures, and common image transformations for geospatial data.
-
-
-<!-- ## Model Specific
-
-[Segment Anything Geospatial](https://github.com/opengeos/segment-geospatial)
+- [Pytorch Tutorials](https://docs.pytorch.org/tutorials/): Popular machine learning library for python.
+- [Pytorch Lightning](https://lightning.ai/docs/pytorch/stable/starter/introduction.html): High-level interface for PyTorch
+- [Torchgeo Tutorials](https://torchgeo.readthedocs.io/en/stable/tutorials/getting_started.html#): The <torchgeo> package is an extension to PyTorch and Pytorch Lightning to include popular datasets, model architectures, and common image transformations for geospatial data.
 
 
-## Foundation Models -->
+<!-- 
+## Model Specific
+
+[Segment Anything Geospatial](https://github.com/opengeos/segment-geospatial) -->
+
+-----------------------------------------------
+
+## Geospatial foundation models
+
+Below we've collated a list of helpful links and tutorials to get you started on Geospatial foundation models. By no means is this an exhaustive 
+
+### Foundation Models / Tutorials
+
+  * **[TerraTorch](https://ibm.github.io/terratorch/stable/)**: flexible fine-tuning framework for Geospatial Foundation Models (GFMs) based on TorchGeo and Lightning, supports models from the Prithvi, TerraMind, and Granite series as well as models from TorchGeo and timm. 
+    * https://github.com/IBM/terratorch/tree/main/examples/notebooks
+   
+  * **[TerraMind](https://github.com/IBM/terramind)**: The latest GFM from ESA, can be applied for classical deep learning tasks, as well as generative tasks (e.g. S1 from S2 data)
+    *  https://github.com/IBM/ML4EO-workshop-2025
+      * Examples of disaster response with S1 and S2; multi-temporal data crop segmentation 
+
+  * **[Google Satellite v1 Embeddings](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL)**:
+    * We have scripts to help download rasters of embeddings with python API
+
+  * **Earth Index**:
+    * https://www.earthgenome.org/earth-index
+    * No coding tool with great interface to find similar satellite images tiles in an active learning environment, currently early access only
+
+  * **IBM-NASA Prithvi Models**: Three foundation models have been released to date: Prithvi-EO-1.0 and Prithvi-EO-2.0 which uses earth observation data from    NASA’s Harmonized Landsat and Sentinel-2 (HLS), and Prithvi-WxC-1.0 which uses weather and climate data from NASA’s MERRA-2.
+    *   https://huggingface.co/ibm-nasa-geospatial 
+
+  * **SatCLIP:** Predict location coordinates given satellite imagery
+    * https://github.com/microsoft/satclip/tree/main/notebooks
+   
+  * **Clay**: EO foudnation model trained on Landsat, S2, S1, NAIP, LINZ, MODIS
+    * https://clay-foundation.github.io/model/index.html
+    * Has a nice tutorial visualising embeddings
+   
+  * **[DOFA](https://huggingface.co/earthflow/DOFA)**: a unified multimodal foundation model for different data modalities in remote sensing and Earth observation.
+    
+  * **[Aurora](https://microsoft.github.io/aurora/intro.html)**: A Foundation Model for the Earth System.
+
+### Embeddings - Things to Consider when using the Google Ones
+* https://www.linkedin.com/posts/mbforr_ai-isnt-magic-its-math-and-sometimes-activity-7353415998424711169-CKsX?utm_source=share&utm_medium=member_desktop&rcm=ACoAADV71oUBf4-Yt6U7QfjkZLmIRivB7oVFbHA 
+
+### Technical Understanding of Key Concepts
+
+* https://developers.google.com/machine-learning/crash-course/embeddings/embedding-space 
+
+### Challenges
+
+ * [ESA Phi Lab - AI4EO challenges](https://platform.ai4eo.eu/)
+ * [AI4EO challenges](https://platform.ai4eo.eu/ai-for-earth-challenge)
+ * [Terramind Blue Sky challenge](https://www.fast-eo.eu/news/terramind-blue-sky-challenge)
+ * [Zindi - Amini GeoFM Decoding the Field Challenge](https://zindi.africa/competitions/amini-geofm-decoding-the-field-challenge)
+
+-----------------------------------------------------
+
+## ML-ready datasets
+
+Some useful dataset created with machine learning in mind.
+
+### Large ML datahubs
+
+Here are some datahubs which host many ML-ready training sets:
+
+* [Source Cooperative](https://source.coop/)
+* [Torchgeo DataModules](https://torchgeo.readthedocs.io/en/latest/api/datamodules.html) - torchgeo has a number of datasets readily available to import prepped in a format read for ML. If you are using the TerraTorch, this is particularly useful as it is built on top of TorchGeo so can be used off-the-shelf.
+
+
+### Unlabelled
+
+* [ESA's MajorTOM dataset](https://github.com/ESA-PhiLab/Major-TOM) - 50+TB of Sentinel-1 and -2 data and DEMs.
+
+### Labelled
+
+* [PhilEO](https://huggingface.co/datasets/PhilEO-community/PhilEO-downstream) - 400GB Sentinel-2 dataset of the PhilEO Bench containing labels for the three downstream tasks of building density estimation, road segmentation, and land cover classification.
 

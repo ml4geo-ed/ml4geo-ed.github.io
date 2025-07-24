@@ -4,21 +4,21 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Here we list a bunch of useful resources for getting started with geospatial machine learning."
+    "text": "Here we list a bunch of useful resources for getting started with geospatial machine learning. By no means is this an exhaustive list, but just a few examples that ML4GEO members have found useful.\nFor a more comprehensive list the one provided by satellite-image-deep-learning is pretty awesome! 😎"
   },
   {
     "objectID": "resources.html#intro-to-geoml",
     "href": "resources.html#intro-to-geoml",
     "title": "Resources",
     "section": "Intro to GeoML",
-    "text": "Intro to GeoML\nOpen Access Courses:\n\nGeoSMART Curriculum\nWV View courses in GIS, remote sensing, and geospatial deep learning.\nRadiantEarth ML4EO Bootcamp 2021\n\nOther resources:\n\nTorchgeo Tutorials: The  package is an extension to PyTorch to include popular datasets, model architectures, and common image transformations for geospatial data."
+    "text": "Intro to GeoML\nOpen Access Courses:\n\nGeoSMART Curriculum\nWV View courses in GIS, remote sensing, and geospatial deep learning.\nRadiantEarth ML4EO Bootcamp 2021\n\nOther introductory resources:\n\nPytorch Tutorials: Popular machine learning library for python.\nPytorch Lightning: High-level interface for PyTorch\nTorchgeo Tutorials: The  package is an extension to PyTorch and Pytorch Lightning to include popular datasets, model architectures, and common image transformations for geospatial data."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ML4GEO",
     "section": "",
-    "text": "Welcome to the website for the Machine Learning for Geoscience & Earth Observation (ML4GEO) research group at the University of Edinburgh!\nIf you are a researcher at the University of Edinburgh using or interested in using geospatial machine learning techniques, please do join the community: JOIN THE ML4GEO TEAMS.\nML4GEO is a new initiative set up in the 2024/25 academic year by PhD students from Geosciences, Informatics, and Maths who found they used similar methods and that discussing was mutually beneficial. We hope that ML4GEO will become a group that encourages interdisciplinary collaboration across schools and disciplines, fostering a supportive environment for sharing ideas, resources, and expertise in geospatial machine learning.\nWe hold regular meetings during the semester and you will find details about this on the ML4GEO Teams Channel. If you are interested in getting more involved, please get in touch with one of our committee! We are always looking for people to help with organising and contributing to the development of the group."
+    "text": "Welcome to the website for the Machine Learning for Geoscience & Earth Observation (ML4GEO) research group at the University of Edinburgh!\nIf you are a researcher at the University of Edinburgh using or interested in using geospatial machine learning techniques, please do join the community: JOIN THE ML4GEO TEAMS.\nML4GEO is a new initiative set up in the 2024/25 academic year by SENSE PhD students from Geosciences, Informatics, and Maths who found they used similar methods and that discussing was mutually beneficial. We hope that ML4GEO will become a group that encourages interdisciplinary collaboration across schools and disciplines, fostering a supportive environment for sharing ideas, resources, and expertise in geospatial machine learning.\nWe hold regular meetings during the semester and you will find details about this on the ML4GEO Teams Channel. If you are interested in getting more involved, please get in touch with one of our committee! We are always looking for people to help with organising and contributing to the development of the group."
   },
   {
     "objectID": "committee.html",
@@ -61,5 +61,19 @@
     "title": "Members",
     "section": "ML4GEO Members",
     "text": "ML4GEO Members\n\n\n\n  \n  \n    \n      \n    \n    Leam Howe\n    Email: leam.howe@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Snow, Scotland, Remote Sensing, Modelling, Machine Learning.\n\n  \n\n\n\n  \n  \n    \n      \n        \n    Becky Wilks\n    Email: R.C.Wilks@sms.ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of Mathematics\n    Research Topics: Elephants, Wildlife Monitoring, Remote Sensing, Statistical Modelling, Machine Learning.\n    \n\n  \n  \n    \n        \n    \n    Philipp Barthelme\n    Email: philipp.barthelme@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Conflict, Environment, Remote Sensing, Machine Learning, Vietnam War.\n  \n\n  \n  \n    \n        \n    \n    Seán Ó Héir\n    Email: sean.oheir@ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of Informatics\n    Research Topics: Population Estimation, Remote Sensing, Machine Learning.\n      \n  \n  \n  \n    \n        \n    \n    Foteini Dervisi\n    Email: F.Dervisi@sms.ed.ac.uk\n    Position: PhD Student, SENSE CDT, School of GeoSciences\n    Research Topics: Earthquake forecasting, Remote Sensing, Machine Learning."
+  },
+  {
+    "objectID": "resources.html#geospatial-foundation-models",
+    "href": "resources.html#geospatial-foundation-models",
+    "title": "Resources",
+    "section": "Geospatial foundation models",
+    "text": "Geospatial foundation models\nBelow we’ve collated a list of helpful links and tutorials to get you started on Geospatial foundation models. By no means is this an exhaustive\n\nFoundation Models / Tutorials\n\nTerraTorch: flexible fine-tuning framework for Geospatial Foundation Models (GFMs) based on TorchGeo and Lightning, supports models from the Prithvi, TerraMind, and Granite series as well as models from TorchGeo and timm.\n\nhttps://github.com/IBM/terratorch/tree/main/examples/notebooks\n\nTerraMind: The latest GFM from ESA, can be applied for classical deep learning tasks, as well as generative tasks (e.g. S1 from S2 data)\n\nhttps://github.com/IBM/ML4EO-workshop-2025\nExamples of disaster response with S1 and S2; multi-temporal data crop segmentation\n\nGoogle Satellite v1 Embeddings:\n\nWe have scripts to help download rasters of embeddings with python API\n\nEarth Index:\n\nhttps://www.earthgenome.org/earth-index\nNo coding tool with great interface to find similar satellite images tiles in an active learning environment, currently early access only\n\nIBM-NASA Prithvi Models: Three foundation models have been released to date: Prithvi-EO-1.0 and Prithvi-EO-2.0 which uses earth observation data from NASA’s Harmonized Landsat and Sentinel-2 (HLS), and Prithvi-WxC-1.0 which uses weather and climate data from NASA’s MERRA-2.\n\nhttps://huggingface.co/ibm-nasa-geospatial\n\nSatCLIP: Predict location coordinates given satellite imagery\n\nhttps://github.com/microsoft/satclip/tree/main/notebooks\n\nClay: EO foudnation model trained on Landsat, S2, S1, NAIP, LINZ, MODIS\n\nhttps://clay-foundation.github.io/model/index.html\nHas a nice tutorial visualising embeddings\n\nDOFA: a unified multimodal foundation model for different data modalities in remote sensing and Earth observation.\nAurora: A Foundation Model for the Earth System.\n\n\n\nEmbeddings - Things to Consider when using the Google Ones\n\nhttps://www.linkedin.com/posts/mbforr_ai-isnt-magic-its-math-and-sometimes-activity-7353415998424711169-CKsX?utm_source=share&utm_medium=member_desktop&rcm=ACoAADV71oUBf4-Yt6U7QfjkZLmIRivB7oVFbHA\n\n\n\nTechnical Understanding of Key Concepts\n\nhttps://developers.google.com/machine-learning/crash-course/embeddings/embedding-space\n\n\n\nChallenges\n\nESA Phi Lab - AI4EO challenges\nAI4EO challenges\nTerramind Blue Sky challenge\nZindi - Amini GeoFM Decoding the Field Challenge"
+  },
+  {
+    "objectID": "resources.html#ml-ready-datasets",
+    "href": "resources.html#ml-ready-datasets",
+    "title": "Resources",
+    "section": "ML-ready datasets",
+    "text": "ML-ready datasets\nSome useful dataset created with machine learning in mind.\n\nLarge ML datahubs\nHere are some datahubs which host many ML-ready training sets:\n\nSource Cooperative\nTorchgeo DataModules - torchgeo has a number of datasets readily available to import prepped in a format read for ML. If you are using the TerraTorch, this is particularly useful as it is built on top of TorchGeo so can be used off-the-shelf.\n\n\n\nUnlabelled\n\nESA’s MajorTOM dataset - 50+TB of Sentinel-1 and -2 data and DEMs.\n\n\n\nLabelled\n\nPhilEO - 400GB Sentinel-2 dataset of the PhilEO Bench containing labels for the three downstream tasks of building density estimation, road segmentation, and land cover classification."
   }
 ]

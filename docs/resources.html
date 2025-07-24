@@ -124,6 +124,19 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#intro-to-geoml" id="toc-intro-to-geoml" class="nav-link active" data-scroll-target="#intro-to-geoml">Intro to GeoML</a></li>
+  <li><a href="#geospatial-foundation-models" id="toc-geospatial-foundation-models" class="nav-link" data-scroll-target="#geospatial-foundation-models">Geospatial foundation models</a>
+  <ul class="collapse">
+  <li><a href="#foundation-models-tutorials" id="toc-foundation-models-tutorials" class="nav-link" data-scroll-target="#foundation-models-tutorials">Foundation Models / Tutorials</a></li>
+  <li><a href="#embeddings---things-to-consider-when-using-the-google-ones" id="toc-embeddings---things-to-consider-when-using-the-google-ones" class="nav-link" data-scroll-target="#embeddings---things-to-consider-when-using-the-google-ones">Embeddings - Things to Consider when using the Google Ones</a></li>
+  <li><a href="#technical-understanding-of-key-concepts" id="toc-technical-understanding-of-key-concepts" class="nav-link" data-scroll-target="#technical-understanding-of-key-concepts">Technical Understanding of Key Concepts</a></li>
+  <li><a href="#challenges" id="toc-challenges" class="nav-link" data-scroll-target="#challenges">Challenges</a></li>
+  </ul></li>
+  <li><a href="#ml-ready-datasets" id="toc-ml-ready-datasets" class="nav-link" data-scroll-target="#ml-ready-datasets">ML-ready datasets</a>
+  <ul class="collapse">
+  <li><a href="#large-ml-datahubs" id="toc-large-ml-datahubs" class="nav-link" data-scroll-target="#large-ml-datahubs">Large ML datahubs</a></li>
+  <li><a href="#unlabelled" id="toc-unlabelled" class="nav-link" data-scroll-target="#unlabelled">Unlabelled</a></li>
+  <li><a href="#labelled" id="toc-labelled" class="nav-link" data-scroll-target="#labelled">Labelled</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -149,7 +162,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Here we list a bunch of useful resources for getting started with geospatial machine learning.</p>
+<p>Here we list a bunch of useful resources for getting started with geospatial machine learning. By no means is this an exhaustive list, but just a few examples that ML4GEO members have found useful.</p>
+<p>For a more comprehensive list the one provided by <a href="https://github.com/satellite-image-deep-learning">satellite-image-deep-learning</a> is pretty awesome! 😎</p>
 <hr>
 <section id="intro-to-geoml" class="level2">
 <h2 class="anchored" data-anchor-id="intro-to-geoml">Intro to GeoML</h2>
@@ -159,18 +173,107 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://wvview.org/courses.html">WV View courses</a> in GIS, remote sensing, and geospatial deep learning.</li>
 <li><a href="https://github.com/RadiantMLHub/ml4eo-bootcamp-2021">RadiantEarth ML4EO Bootcamp 2021</a></li>
 </ul>
-<p><strong>Other resources:</strong></p>
+<p><strong>Other introductory resources:</strong></p>
 <ul>
-<li><a href="https://torchgeo.readthedocs.io/en/stable/tutorials/getting_started.html#">Torchgeo Tutorials</a>: The <torchgeo> package is an extension to PyTorch to include popular datasets, model architectures, and common image transformations for geospatial data.</torchgeo></li>
+<li><a href="https://docs.pytorch.org/tutorials/">Pytorch Tutorials</a>: Popular machine learning library for python.</li>
+<li><a href="https://lightning.ai/docs/pytorch/stable/starter/introduction.html">Pytorch Lightning</a>: High-level interface for PyTorch</li>
+<li><a href="https://torchgeo.readthedocs.io/en/stable/tutorials/getting_started.html#">Torchgeo Tutorials</a>: The <torchgeo> package is an extension to PyTorch and Pytorch Lightning to include popular datasets, model architectures, and common image transformations for geospatial data.</torchgeo></li>
 </ul>
-<!-- ## Model Specific
+<!-- 
+## Model Specific
 
-[Segment Anything Geospatial](https://github.com/opengeos/segment-geospatial)
+[Segment Anything Geospatial](https://github.com/opengeos/segment-geospatial) -->
+<hr>
+</section>
+<section id="geospatial-foundation-models" class="level2">
+<h2 class="anchored" data-anchor-id="geospatial-foundation-models">Geospatial foundation models</h2>
+<p>Below we’ve collated a list of helpful links and tutorials to get you started on Geospatial foundation models. By no means is this an exhaustive</p>
+<section id="foundation-models-tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="foundation-models-tutorials">Foundation Models / Tutorials</h3>
+<ul>
+<li><p><strong><a href="https://ibm.github.io/terratorch/stable/">TerraTorch</a></strong>: flexible fine-tuning framework for Geospatial Foundation Models (GFMs) based on TorchGeo and Lightning, supports models from the Prithvi, TerraMind, and Granite series as well as models from TorchGeo and timm.</p>
+<ul>
+<li>https://github.com/IBM/terratorch/tree/main/examples/notebooks</li>
+</ul></li>
+<li><p><strong><a href="https://github.com/IBM/terramind">TerraMind</a></strong>: The latest GFM from ESA, can be applied for classical deep learning tasks, as well as generative tasks (e.g.&nbsp;S1 from S2 data)</p>
+<ul>
+<li>https://github.com/IBM/ML4EO-workshop-2025</li>
+<li>Examples of disaster response with S1 and S2; multi-temporal data crop segmentation</li>
+</ul></li>
+<li><p><strong><a href="https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL">Google Satellite v1 Embeddings</a></strong>:</p>
+<ul>
+<li>We have scripts to help download rasters of embeddings with python API</li>
+</ul></li>
+<li><p><strong>Earth Index</strong>:</p>
+<ul>
+<li>https://www.earthgenome.org/earth-index</li>
+<li>No coding tool with great interface to find similar satellite images tiles in an active learning environment, currently early access only</li>
+</ul></li>
+<li><p><strong>IBM-NASA Prithvi Models</strong>: Three foundation models have been released to date: Prithvi-EO-1.0 and Prithvi-EO-2.0 which uses earth observation data from NASA’s Harmonized Landsat and Sentinel-2 (HLS), and Prithvi-WxC-1.0 which uses weather and climate data from NASA’s MERRA-2.</p>
+<ul>
+<li>https://huggingface.co/ibm-nasa-geospatial</li>
+</ul></li>
+<li><p><strong>SatCLIP:</strong> Predict location coordinates given satellite imagery</p>
+<ul>
+<li>https://github.com/microsoft/satclip/tree/main/notebooks</li>
+</ul></li>
+<li><p><strong>Clay</strong>: EO foudnation model trained on Landsat, S2, S1, NAIP, LINZ, MODIS</p>
+<ul>
+<li>https://clay-foundation.github.io/model/index.html</li>
+<li>Has a nice tutorial visualising embeddings</li>
+</ul></li>
+<li><p><strong><a href="https://huggingface.co/earthflow/DOFA">DOFA</a></strong>: a unified multimodal foundation model for different data modalities in remote sensing and Earth observation.</p></li>
+<li><p><strong><a href="https://microsoft.github.io/aurora/intro.html">Aurora</a></strong>: A Foundation Model for the Earth System.</p></li>
+</ul>
+</section>
+<section id="embeddings---things-to-consider-when-using-the-google-ones" class="level3">
+<h3 class="anchored" data-anchor-id="embeddings---things-to-consider-when-using-the-google-ones">Embeddings - Things to Consider when using the Google Ones</h3>
+<ul>
+<li>https://www.linkedin.com/posts/mbforr_ai-isnt-magic-its-math-and-sometimes-activity-7353415998424711169-CKsX?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADV71oUBf4-Yt6U7QfjkZLmIRivB7oVFbHA</li>
+</ul>
+</section>
+<section id="technical-understanding-of-key-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="technical-understanding-of-key-concepts">Technical Understanding of Key Concepts</h3>
+<ul>
+<li>https://developers.google.com/machine-learning/crash-course/embeddings/embedding-space</li>
+</ul>
+</section>
+<section id="challenges" class="level3">
+<h3 class="anchored" data-anchor-id="challenges">Challenges</h3>
+<ul>
+<li><a href="https://platform.ai4eo.eu/">ESA Phi Lab - AI4EO challenges</a></li>
+<li><a href="https://platform.ai4eo.eu/ai-for-earth-challenge">AI4EO challenges</a></li>
+<li><a href="https://www.fast-eo.eu/news/terramind-blue-sky-challenge">Terramind Blue Sky challenge</a></li>
+<li><a href="https://zindi.africa/competitions/amini-geofm-decoding-the-field-challenge">Zindi - Amini GeoFM Decoding the Field Challenge</a></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="ml-ready-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="ml-ready-datasets">ML-ready datasets</h2>
+<p>Some useful dataset created with machine learning in mind.</p>
+<section id="large-ml-datahubs" class="level3">
+<h3 class="anchored" data-anchor-id="large-ml-datahubs">Large ML datahubs</h3>
+<p>Here are some datahubs which host many ML-ready training sets:</p>
+<ul>
+<li><a href="https://source.coop/">Source Cooperative</a></li>
+<li><a href="https://torchgeo.readthedocs.io/en/latest/api/datamodules.html">Torchgeo DataModules</a> - torchgeo has a number of datasets readily available to import prepped in a format read for ML. If you are using the TerraTorch, this is particularly useful as it is built on top of TorchGeo so can be used off-the-shelf.</li>
+</ul>
+</section>
+<section id="unlabelled" class="level3">
+<h3 class="anchored" data-anchor-id="unlabelled">Unlabelled</h3>
+<ul>
+<li><a href="https://github.com/ESA-PhiLab/Major-TOM">ESA’s MajorTOM dataset</a> - 50+TB of Sentinel-1 and -2 data and DEMs.</li>
+</ul>
+</section>
+<section id="labelled" class="level3">
+<h3 class="anchored" data-anchor-id="labelled">Labelled</h3>
+<ul>
+<li><a href="https://huggingface.co/datasets/PhilEO-community/PhilEO-downstream">PhilEO</a> - 400GB Sentinel-2 dataset of the PhilEO Bench containing labels for the three downstream tasks of building density estimation, road segmentation, and land cover classification.</li>
+</ul>
 
 
-## Foundation Models -->
-
-
+</section>
 </section>
 
 </main> <!-- /main -->
