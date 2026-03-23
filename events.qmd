@@ -54,7 +54,7 @@ In our upcoming seminar, we will hear from Holly Houliston at the British Antarc
 
 -------------------------------------------------------------------------
 
-# 19/03/2026 - Tutorial: Agentic AI
+# <del>19/03/2026 - Tutorial: Agentic AI</del>
 
 Join us for a tutorial on agentic AI with **Dr Jon Minton** from the School of Social and Political Science.
 
