@@ -20,7 +20,7 @@ In our upcoming seminar, we will hear from Becky Wilks.
 
 **📍Where**: TBC
 
--------------------------------------------------------------------------
+<!-- -------------------------------------------------------------------------
 
 # 20/04/2026 - ML4GEO Seminar: Lauren Young
 
@@ -34,7 +34,7 @@ In our upcoming seminar, we will hear from Lauren Young.
 
 **🕓When**: Monday 20th April, 4-5pm
 
-**📍Where**: 2.05 Ogilvie, Drummond Street Campus, Central (or online).
+**📍Where**: 2.05 Ogilvie, Drummond Street Campus, Central (or online). -->
 
 -------------------------------------------------------------------------
 
