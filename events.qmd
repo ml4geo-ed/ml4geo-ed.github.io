@@ -4,7 +4,7 @@ title: "Events"
 
 This page lists all upcoming ML4GEO events. Please bear in mind that the MS Teams Channel will remain the place to receive the most up-to-date information about ML4GEO activities.
 
--------------------------------------------------------------------------
+<!-- -------------------------------------------------------------------------
 
 # 04/05/2026 - ML4GEO Seminar: Becky Wilks
 
@@ -18,7 +18,7 @@ In our upcoming seminar, we will hear from Becky Wilks.
 
 **🕓When**: Monday 4th May, 4-5pm
 
-**📍Where**: TBC
+**📍Where**: TBC -->
 
 <!-- -------------------------------------------------------------------------
 
